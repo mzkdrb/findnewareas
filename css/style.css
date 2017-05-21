@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+header {
+    background-position: bottom center;
+    height: 600px;
+    width: 100%;
+    background-image: url(../image/IMG_8984.JPG);
+    background-size: cover;
+    
+}
+
+header h1 {
+    position: static;
+    
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: calc(60px + 0.25vw);
+    font-family: 'EB Garamond', serif;
+    color: #fff;
+}
+
+.side-nav-bar {
+   width: 180px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    overflow: hidden;
+}
+    
+.bgImage {
+    width: auto;
+    height: auto;
+    min-height: 270px;
+    min-width: 960px;
+    
+    margin: auto;
+    overflow: hidden;
+    
+    
+}
+
+
+nav ul {
+  font-family: 'EB Garamond', serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+   
+}
+nav li {
+  display: inline;
+  padding: 0; 
+margin: 0;
+  margin-top: 17px;
+  width:auto;
+  list-style-type: none;
+}
+nav li a {
+  text-decoration: none;
+  color: #3eb8ac;
+  padding: 10px;
+  display: block;
+  transition: 0.5s;
+  border-bottom: 0 solid #f9f9f9;
+  margin: 10px;
+  
+}
+nav li a:hover {
+  background: #3eb8ac;
+  color: #fff;
+
+}
+
+.img-box {
+    position: relative;
+    overflow: hidden;
+}
+.modal {
+    float: right;
+    position: relative;
+}
+.modal-wrap p{
+    width: 380px;
+    float: right;
+}
+.open-modal {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px #3eb8ac;
+  color: white;
+  
+  padding: 5px;
+  transition: all 0.2s ease;
+  display: inline-block;
+  margin: 10px;
+  border-top: 1px solid transparent;
+  min-width: 150px;
+
+}
+
+.open-modal:hover {
+  cursor: pointer;
+  background-color: #E7E7E7;
+  color: #3C3C3C;
+  border-top: 1px solid #eEeeee;
+  box-shadow: 0.2px 0.2px 2px #3eb8ac;
+}
+
+footer{
+  background: #3eb8ac;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: 30px;
+  
+}
+
+footer p {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+    
+    
